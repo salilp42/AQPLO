@@ -13,7 +13,7 @@ AQPLO introduces several key improvements over traditional cross-validation meth
 ## Repository Structure
 
 - `quicksort_cvs.py`: Core implementation of QPLO and AQPLO algorithms
-  - `QPLO` class: Base implementation with enhanced caching
+  - `QPLO` class: Base implementation with enhanced caching (as per the original Quicksort CV paper by Numminen et al which inpsired AQPLO: https://link.springer.com/article/10.1007/s00180-022-01288-3)
   - `AQPLO` class: Advanced implementation with adaptive parameters
 - `main.py`: Script to reproduce experimental results
   - Includes comparisons with GSKF, LOGO, and TLPO methods
@@ -54,12 +54,11 @@ aqplo_sorted = aqplo.sort()
 
 For detailed examples and experimental results:
 1. Run `main.py` to reproduce the core experiments
-2. Explore `main_v2.ipynb` for detailed analysis and visualizations
 
 ## Experimental Results
 
 Our experiments show that AQPLO achieves:
-- Improved AUC scores compared to traditional methods
+- Consistant AUC scores compared to validated, unbiased methods
 - Faster execution times, especially on larger datasets
 - Better memory efficiency through adaptive caching
 - More robust performance across different dataset characteristics
