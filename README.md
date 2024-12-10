@@ -2,7 +2,7 @@
 
 This repository contains the implementation and experimental evaluation of Adaptive Quick-sort Leave-Pair-Out (AQPLO) cross-validation, a novel approach to cross-validation for machine learning models. 
 
-QAPLO is inpsired by QPLO (as per the original Quicksort CV paper by Numminen et al : https://link.springer.com/article/10.1007/s00180-022-01288-3)
+AQPLO is inpsired by QPLO (as per the original Quicksort CV paper by Numminen et al : https://link.springer.com/article/10.1007/s00180-022-01288-3)
 
 ## Overview
 
