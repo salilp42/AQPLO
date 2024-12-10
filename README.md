@@ -18,7 +18,6 @@ AQPLO introduces several key improvements over traditional cross-validation meth
 - `main.py`: Script to reproduce experimental results
   - Includes comparisons with GSKF, LOGO, and TLPO methods
   - Supports multiple datasets (Breast Cancer, Diabetes)
-- `main_v2.ipynb`: Jupyter notebook with detailed experimental analysis and visualizations
 
 ## Requirements
 
